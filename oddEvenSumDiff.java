@@ -9,11 +9,11 @@ public class oddEvenSumDiff {
         int Y = 0;                                  // Even Sum
 
         for (int i = 0; i < x.length; i++) {
-            if (x[i] % 2 == 0) {                   // If even element
+            if (x[i] % 2 == 0) {                   // If even
                 Y += x[i];
                 // System.out.println("Even " + x[i]);
 
-            } else {                                 // If odd element
+            } else {                                 // If odd
                 X += x[i];
                 // System.out.println("Odd " + x[i]);
             }
